@@ -1,0 +1,15 @@
+{
+   "manifest_version": 2,
+   "name": "Super slick chrome ext.",
+   "version": "1.0",
+   "description": "Chrome extension webpack boilerplate",
+   "browser_action": {
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "scripts": [
+         "background.bundle.js"
+      ],
+      "persistent": false
+   }
+}
